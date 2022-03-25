@@ -1,5 +1,3 @@
-
-
 let whichSchool = function(age) {
   if (age < 13) {
     return "Elementary School";
