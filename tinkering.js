@@ -1,11 +1,8 @@
-let whichSchool = function(age) {
-  if (age < 13) {
-    return "Elementary School";
-  } else if (age >= 13 && age <= 18) {
-    return "Secondary School";
-  } else {
-    return "Lighthouse Labs";
-  }
-};
+const amounts = [1, 2, 3, 4, 5];
 
-console.log(whichSchool(30));
+let total = 0;
+for (let amount of amounts) {
+  total += amount;
+}
+
+console.log(total);
